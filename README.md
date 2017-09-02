@@ -14,7 +14,7 @@
 
 
 ### DATA MODEL
-   
+```   
   {
     author:String,
     authorImg:{data:Buffer, contentType:String},
@@ -28,13 +28,14 @@
 
                }   
 
-
+```
 
 
 
 
 ### NOTE: 
 
+```
 __________________________________________________________________________________
 POST REQUEST: BODY DATA FORMAT FOR UPDATING THE EXISTING BLOGS OR CREATING NEW ONE
 -----------------------------------------------------------------------------------            
@@ -56,3 +57,6 @@ POST REQUEST: BODY DATA FORMAT FOR UPDATING THE EXISTING BLOGS OR CREATING NEW O
 }
 
 /***************************************************************/
+
+
+```
