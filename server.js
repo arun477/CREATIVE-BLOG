@@ -8,7 +8,7 @@ let config = require('./server/config');
 let app = express();
 let apiController = require('./server/controllers/api-controller');
 let dataController = require('./server/controllers/data-controller');
-let port = process.env.port || 3000;
+let port = process.env.PORT || 3000;
 
 //DEFINE STATIC FILE FOLDER
 app.use(express.static(__dirname+'/client'));
