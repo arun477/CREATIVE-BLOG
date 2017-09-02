@@ -1,0 +1,22 @@
+
+______________________________________________________________
+POST REQUEST: BODY DATA FORMAT FOR UPDATING THE EXISTING BLOGS
+--------------------------------------------------------------            
+{
+  "id":"put your id given by your mongodb database in string format",
+
+ "data":    {
+    author:String,
+    authorImg:{data:Buffer, contentType:String},
+    title:String,
+    contentBody:String,
+    contentImg:{data:Buffer, contentType:String},
+    date:Date,
+    comments:[{name:String,body:String}],
+    likes:Number,
+    dislikes:Number
+
+               }    
+}
+
+/***************************************************************/

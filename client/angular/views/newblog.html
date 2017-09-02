@@ -1,0 +1,19 @@
+<div class='row'>
+  <div class='col-lg-12'>
+    <form id="form" class="topBefore">
+      
+      <input style="color:white;" id="name" type="text" placeholder="NAME" ng-model="blogCtrl.name" minlength=4>
+      <input style="color:white;" id="email" type="text" placeholder="Title" ng-model="blogCtrl.title" minlength=5>
+      <textarea style="color:white;" id="message" type="text" placeholder="CONTENT" ng-model='blogCtrl.content' minlength=10></textarea>
+      <input id="submit" ng-click="blogCtrl.createNewBlog()" type="submit" value="POST">
+
+      <h6 ng-show="blogCtrl.success===1" style='color:white;margin-top:2%;'> Blog has been successfully posted!!
+        <span class="glyphicon glyphicon-ok" ></span></h6>
+        <h6 ng-show="blogCtrl.fail===1" style='color:white;margin-top:2%;'> Please fill up all the required fields</h6>
+      </form>
+      
+      
+      <a ng-click="blogCtrl.allblogs()" id='all' ui-sref="allblogs" class="btn btn-info btn-lg" role="button">All Blogs</a>
+    </div>
+  </div>
+</div>

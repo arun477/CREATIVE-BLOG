@@ -1,0 +1,37 @@
+<div class='row'>
+  <h6 style="position:fixed;color:white;z-index:2;background-color:darkgrey;padding:7px;width:80%;text-shadow:2px 2xp 2px black" ng-show='blogCtrl.del ===1'>Blog has been deleted successfully !!</h6>
+  <div id='alldetail'  ng-repeat="blog in blogCtrl.blogData | orderBy:'-date'" class='col-lg-12 col-md-12 col-sm-12'>
+    
+    
+    <h6 id='blogtitle'>{{blog.title | uppercase}}</h6>    
+    <h6 id='contentbody'>{{blog.contentBody}}</h6>
+
+    <div id='moredetail' class='row'>
+      
+      <div class='col-lg-6'>
+        <h6 id='likes'>likes : {{blog.likes}}</h6>
+        <h6 id='dislikes'>dislikes : {{blog.dislikes}}</h6>
+      </div>
+
+      <div class='col-lg-6'>
+       <h6 id='author'>Author : {{blog.author}}</h6>
+       <h6 id='date'> Posted : {{blog.date | date}}</h6>
+     </div>
+     
+     <div class='col-lg-6'>
+       <button ng-click='blogCtrl.deleteblog($index,this)' style='border-radius:1px; margin-top:2%;color:white;' type="button" class="btn-outline-danger">Delete</button> 
+       
+     </div>
+     <div class='col-lg-6'>
+       <button ng-click='blogCtrl.updatelikes(this)'  style='border-radius:1px; margin-top:2%;color:white;margin-left:70%;' type="button" class="btn-outline-danger">Like</button>
+       <button ng-click='blogCtrl.updatedislikes(this)' style='border-radius:1px; margin-top:2%;color:white;margin-left:70%;' type="button" class="btn-outline-danger">Dislike</button>  
+     </div>
+   </div>  
+   
+   
+
+   
+ </div>
+
+ <a  id='new' ui-sref="newblog" class="btn btn-info btn-lg" role="button">New Blog</a>
+</div>

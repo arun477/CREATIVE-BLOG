@@ -1,0 +1,287 @@
+body, html {
+	margin:0;
+	padding:0;
+	background-color:#6699CC;
+	z-index:0;
+}
+
+.navbar {
+	background-color:inherit;
+	
+
+}
+
+#icon {
+	position:absolute;
+	z-index:3;
+}
+
+#title {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight:3em;
+	color:white;
+	text-shadow:2px 2px 2px black;
+	
+}
+
+/* MAIN STYLES */
+
+#mainbox {
+  margin-top:20px;
+  background-image:url('../images/backimg1.png');
+  min-height:480px;
+  margin-bottom:0;
+}
+
+#innerbox {
+  margin:auto;
+  border-radius:4px;
+}
+
+#allblg, #newblg {
+  padding:20%;
+  padding-bottom:5%;
+  padding-top:8%;
+  
+}
+.btn, .btn-info {
+	background-color:#292C2F;
+	color:white;
+	font-size:1em;
+	height:100px;
+	border-radius:100%;
+	text-align:center;
+	border:1px solid black;
+	line-height:4em;
+}
+
+.btn:hover, .btn-info:hover{
+	background-color:darkslategrey;
+	border:1px solid black;
+}
+
+
+/* NEW BLOG STYLES */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 1em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 1em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 1em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: white;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: white;
+  font-size: 1em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: white;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: white;
+  font-size: 1em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: white;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: white;
+  font-size: 1em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: white;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: white;
+  font-size: 1em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+
+
+
+
+#form {
+  position: relative;
+  width: 100%;
+  margin: 50px auto 100px auto;
+  font-size:1em;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  width: 100%;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 2px white;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: crimson;
+  color:white;
+}
+
+textarea {
+  width: 100%;
+
+  height: 200px;
+  max-height: 200px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  
+  border: solid 2px white;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  color:white;
+}
+
+textarea:hover {
+  background:crimson;
+  color: white;
+
+}
+
+#submit {
+  width: 100%;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 2px white;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+
+/* ALL BLOGS DETAILS */
+
+#alldetail {
+  background-color:;
+  border-radius:4px;
+  margin-top:1%;
+  margin-bottom:1%;
+  width:100%;
+  
+}
+
+#blogtitle {
+  width:100%;
+  background-color:#292C2F;
+  text-align:center;
+  font-size:1.2em;
+  padding:7px;
+  color:white;
+  text-shadow:2px 2px 2px black;
+  border-radius:2px;
+}
+
+#contentbody {
+  background-color: -webkit-gradient(linear, left top, left bottom, from(#292C2F), to(end-color));
+  background-image: -webkit-linear-gradient(top, #292C2F, crimson);
+  background-image: -moz-linear-gradient(top, #292C2F, crimson);
+  background-image: linear-gradient(to bottom, #292C2F, crimson);
+  min-height:250px;
+  color:white;
+  border-radius:3px;
+  padding:5%;
+  font-family: 'Crimson Text', serif;
+  font-size:1.5em;
+  
+}
+
+#author {
+  text-align:right;
+}
+
+#date {
+ text-align:right;
+}
+
+#likes {
+  text-align:left;
+
+}
+
+#dislikes {
+  text-align:left;
+}
+
+#moredetail {
+  background-color:crimson;
+  margin:2px;
+  padding:3%;
+  border-radius:3px;
+  color:white;
+}
