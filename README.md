@@ -60,4 +60,4 @@ POST REQUEST: BODY DATA FORMAT FOR UPDATING THE EXISTING BLOGS OR CREATING NEW O
 
 
 ```
-[Live site on heroku] (https://creative-blog.herokuapp.com)
+LIVE SITE ON HEROKU   [Live site] (https://creative-blog.herokuapp.com)
