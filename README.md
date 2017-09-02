@@ -2,4 +2,4 @@
 
 ### API END POINTS
 
-GET : > /api/allblogs  (Getting all blogs)
+> GET :  /api/allblogs  (Getting all blogs)
